@@ -825,7 +825,6 @@ class GravityView_Edit_Entry_Render {
 	    // Only certain custom field types are supported
 	    switch( $input_type ) {
 		    case 'fileupload':
-		    case 'list':
 		    case 'multiselect':
 			    $json_encoded = true;
 			    break;
